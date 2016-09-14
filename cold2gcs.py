@@ -4,7 +4,6 @@
     File name: cold2gcs.py
     Author: Andrew Hill
     Python Version: 2.7
-    Credential: lumberyard-0df0ea7e31a0.json
     Description: This script is defined in indexes.conf and is ran by Splunk just
     before the indexers erase frozen data from an index, as defined by our retention
     policies. If the script returns without errors, the data will be deleted from
